@@ -51,7 +51,6 @@ class Smgoals_Admin {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-
 	}
 
 	/**
@@ -100,4 +99,24 @@ class Smgoals_Admin {
 
 	}
 
+	// Plugin Option Configuration
+
+    public function add_admin_page(){
+        $this->plugin_screen_hook_suffix = add_options_page(
+            __('SM Goals Settings Page' , 'smgoals'),
+            __('SM Goals' , 'smgoals'),
+            'manage_options',
+            $this->plugin_name,
+            array($this , 'display_options_page')
+        );
+    }
+
+    // End Plugin option configuration
+
+    // Load the view for the plugin admin side
+
+    public function display_options_page(){
+        include_once 'partials/smgoals-admin-display.php';
+    }
+    // Load the view for the plugin admin side
 }
