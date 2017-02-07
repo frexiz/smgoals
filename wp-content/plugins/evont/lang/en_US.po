@@ -1,0 +1,816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rebuild Plugin\n"
+"POT-Creation-Date: 2016-04-03 19:25+0300\n"
+"PO-Revision-Date: 2016-04-03 19:27+0300\n"
+"Last-Translator: Farooq <support@janxcode.com>\n"
+"Language-Team: Janxcode <support@janxcode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/shortcodes/accordion.php:235 assets/shortcodes/banner_fx.php:91
+#: assets/shortcodes/flexslider.php:87 assets/shortcodes/flipbox.php:176
+#: assets/shortcodes/image_placeholder.php:61
+#: assets/shortcodes/interactive_map.php:125
+#: assets/shortcodes/interactive_map.php:178
+#: assets/shortcodes/service_box.php:545 assets/shortcodes/tabs.php:265
+#: assets/shortcodes/tag_box.php:172
+msgid "Image"
+msgstr ""
+
+#: assets/shortcodes/accordion.php:238 assets/shortcodes/banner_fx.php:94
+#: assets/shortcodes/flexslider.php:90 assets/shortcodes/flipbox.php:179
+#: assets/shortcodes/image_placeholder.php:64
+#: assets/shortcodes/interactive_map.php:128 assets/shortcodes/tabs.php:268
+#: assets/shortcodes/tag_box.php:175
+msgid "Add Image Here"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:101
+msgid "Alerts"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:105 assets/shortcodes/animated_title.php:50
+#: assets/shortcodes/banner_fx.php:63 assets/shortcodes/blockquote.php:61
+#: assets/shortcodes/buttons.php:126 assets/shortcodes/contact_details.php:58
+#: assets/shortcodes/contact_us.php:103 assets/shortcodes/content_box.php:63
+#: assets/shortcodes/counter_up.php:156 assets/shortcodes/dividers.php:48
+#: assets/shortcodes/dropcaps.php:34 assets/shortcodes/flipbox.php:140
+#: assets/shortcodes/grid_counter.php:89
+#: assets/shortcodes/image_placeholder.php:53 assets/shortcodes/map.php:79
+#: assets/shortcodes/media_center.php:155 assets/shortcodes/modalbox.php:81
+#: assets/shortcodes/our_team.php:164 assets/shortcodes/partners_logo.php:92
+#: assets/shortcodes/portfolio.php:154 assets/shortcodes/price_table.php:381
+#: assets/shortcodes/project_progress.php:177
+#: assets/shortcodes/projects.php:63 assets/shortcodes/quote_box.php:53
+#: assets/shortcodes/section_title.php:130
+#: assets/shortcodes/service_box.php:464 assets/shortcodes/subscribe.php:74
+#: assets/shortcodes/tag_box.php:125 assets/shortcodes/testimonials.php:172
+#: assets/shortcodes/v-timeline.php:50
+msgid "Rebuild Shortcodes"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:141
+msgid "Notification Message"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:144
+msgid "Add Your Message Here"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:151
+msgid "Button Text A"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:154 assets/shortcodes/alerts.php:162
+msgid "Add Your Button Text"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:159
+msgid "Button Text B"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:168
+msgid "Button Link A"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:171 assets/shortcodes/alerts.php:181
+msgid "Add Your Button URL"
+msgstr ""
+
+#: assets/shortcodes/alerts.php:178
+msgid "Button Link B"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:46
+msgid "Animated Heading"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:76 assets/shortcodes/banner_fx.php:100
+#: assets/shortcodes/contact_details.php:79
+#: assets/shortcodes/content_box.php:72
+#: assets/shortcodes/interactive_map.php:160
+#: assets/shortcodes/modalbox.php:126 assets/shortcodes/price_table.php:390
+#: assets/shortcodes/progress_bar.php:180 assets/shortcodes/projects.php:72
+#: assets/shortcodes/quote_box.php:73 assets/shortcodes/section_title.php:166
+#: assets/shortcodes/tag_box.php:181 assets/shortcodes/v-timeline.php:67
+msgid "Title"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:79
+msgid "Type main heading"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:85
+msgid "Word#1"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:88
+msgid "Type first word"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:94
+msgid "Word#2"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:97
+msgid "Type second word"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:103
+msgid "Word#3"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:106
+msgid "Type third word"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:112
+msgid "Font Size"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:115
+msgid "Type font size"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:121
+msgid "Font Color"
+msgstr ""
+
+#: assets/shortcodes/animated_title.php:124
+msgid "Select Font Color"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:59
+msgid "Banner FX"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:103 assets/shortcodes/content_box.php:75
+msgid "Type Your Title"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:109
+msgid "Title Bold"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:112
+msgid "Type Bold Title"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:118
+msgid "Readmore Text"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:121
+msgid "Add Readmore Title"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:127
+msgid "URL"
+msgstr ""
+
+#: assets/shortcodes/banner_fx.php:130
+msgid "Add Your URL"
+msgstr ""
+
+#: assets/shortcodes/blockquote.php:57
+msgid "Blockquote"
+msgstr ""
+
+#: assets/shortcodes/buttons.php:122
+msgid "Buttons"
+msgstr ""
+
+#: assets/shortcodes/buttons.php:163 assets/shortcodes/modalbox.php:145
+#: assets/shortcodes/tag_box.php:199
+msgid "Button Text"
+msgstr ""
+
+#: assets/shortcodes/buttons.php:166
+msgid "Add your Button Text"
+msgstr ""
+
+#: assets/shortcodes/buttons.php:172
+msgid "Button URL"
+msgstr ""
+
+#: assets/shortcodes/buttons.php:175
+msgid "Add your Button URL"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:54
+msgid "Contact Details"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:82
+msgid "Add your Title Here"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:88
+msgid "Address"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:91
+msgid "Add your Address"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:97
+msgid "Phone Number"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:100
+msgid "Add your Phone Number"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:106
+msgid "Fax Number"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:109
+msgid "Add your Fax Number"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:115
+msgid "Opning Days A"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:118
+#: assets/shortcodes/contact_details.php:127
+msgid "Add your Opning Timing"
+msgstr ""
+
+#: assets/shortcodes/contact_details.php:124
+msgid "Opning Days B"
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:52
+msgid "Full Name"
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:56
+msgid "Email Address"
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:63
+msgid "Subject"
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:70
+msgid "Enter Your Message Here..."
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:75
+msgid "SEND"
+msgstr ""
+
+#: assets/shortcodes/contact_us.php:99
+msgid "Contact Us"
+msgstr ""
+
+#: assets/shortcodes/content_box.php:59
+msgid "Content Box"
+msgstr ""
+
+#: assets/shortcodes/content_box.php:80
+msgid "File Name"
+msgstr ""
+
+#: assets/shortcodes/content_box.php:83
+msgid "Type File Name"
+msgstr ""
+
+#: assets/shortcodes/content_box.php:88
+msgid "File Link"
+msgstr ""
+
+#: assets/shortcodes/content_box.php:91
+msgid "Type Your File Link"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:152
+msgid "Count Up"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:170
+msgid "Select Your Color Style"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:184
+msgid "Select Your Counter Style"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:191
+msgid "Count Number"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:194
+msgid "Add Count Up Number"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:200
+msgid "Count Text"
+msgstr ""
+
+#: assets/shortcodes/counter_up.php:203
+msgid "Add Count Up Text"
+msgstr ""
+
+#: assets/shortcodes/dividers.php:44
+msgid "Dividers"
+msgstr ""
+
+#: assets/shortcodes/dropcaps.php:30
+msgid "Dropcaps"
+msgstr ""
+
+#: assets/shortcodes/dropcaps.php:66
+msgid "Cap Letter"
+msgstr ""
+
+#: assets/shortcodes/dropcaps.php:69
+msgid "Type Cap Letter Here"
+msgstr ""
+
+#: assets/shortcodes/flipbox.php:136
+msgid "Flip Box"
+msgstr ""
+
+#: assets/shortcodes/grid_counter.php:85
+msgid "Grid Counter"
+msgstr ""
+
+#: assets/shortcodes/grid_counter.php:108
+#: assets/shortcodes/grid_counter.php:126
+#: assets/shortcodes/grid_counter.php:144
+#: assets/shortcodes/grid_counter.php:162
+#: assets/shortcodes/grid_counter.php:180
+msgid "Text"
+msgstr ""
+
+#: assets/shortcodes/grid_counter.php:111
+#: assets/shortcodes/grid_counter.php:129
+#: assets/shortcodes/grid_counter.php:147
+#: assets/shortcodes/grid_counter.php:165
+#: assets/shortcodes/grid_counter.php:183 assets/shortcodes/modalbox.php:129
+#: assets/shortcodes/progress_bar.php:183 assets/shortcodes/projects.php:75
+#: assets/shortcodes/section_title.php:169
+msgid "Type title here"
+msgstr ""
+
+#: assets/shortcodes/grid_counter.php:117
+#: assets/shortcodes/grid_counter.php:135
+#: assets/shortcodes/grid_counter.php:153
+#: assets/shortcodes/grid_counter.php:171
+#: assets/shortcodes/grid_counter.php:189
+msgid "Counter"
+msgstr ""
+
+#: assets/shortcodes/grid_counter.php:120
+#: assets/shortcodes/grid_counter.php:138
+#: assets/shortcodes/grid_counter.php:156
+#: assets/shortcodes/grid_counter.php:174
+#: assets/shortcodes/grid_counter.php:192
+msgid "Type number here"
+msgstr ""
+
+#: assets/shortcodes/image_placeholder.php:49
+msgid "Image Placeholder"
+msgstr ""
+
+#: assets/shortcodes/image_placeholder.php:70
+msgid "link"
+msgstr ""
+
+#: assets/shortcodes/image_placeholder.php:73
+msgid "Image Link"
+msgstr ""
+
+#: assets/shortcodes/image_placeholder.php:79
+msgid "CSS"
+msgstr ""
+
+#: assets/shortcodes/image_placeholder.php:82
+msgid "Inline CSS"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:163
+#: assets/shortcodes/price_table.php:393
+msgid "Type Title Here"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:169
+msgid "Description"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:172
+msgid "Type Description Here"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:181
+msgid "Add Pop Image Here"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:188
+msgid "Point Left Position"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:191
+msgid "Set point left position"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:197
+msgid "Point Top Position"
+msgstr ""
+
+#: assets/shortcodes/interactive_map.php:200
+msgid "Set point Top position"
+msgstr ""
+
+#: assets/shortcodes/map.php:75
+msgid "Google Map"
+msgstr ""
+
+#: assets/shortcodes/map.php:131
+msgid "Lat"
+msgstr ""
+
+#: assets/shortcodes/map.php:134
+msgid "Add Lat"
+msgstr ""
+
+#: assets/shortcodes/map.php:139
+msgid "lng"
+msgstr ""
+
+#: assets/shortcodes/map.php:142
+msgid "Add Lng"
+msgstr ""
+
+#: assets/shortcodes/map.php:148
+msgid "Height"
+msgstr ""
+
+#: assets/shortcodes/map.php:151
+msgid "Set map height"
+msgstr ""
+
+#: assets/shortcodes/media_center.php:131
+msgid "Read All"
+msgstr ""
+
+#: assets/shortcodes/media_center.php:151
+msgid "Blog"
+msgstr ""
+
+#: assets/shortcodes/media_center.php:162 assets/shortcodes/our_team.php:183
+#: assets/shortcodes/partners_logo.php:115 assets/shortcodes/portfolio.php:187
+#: assets/shortcodes/projects.php:80 assets/shortcodes/testimonials.php:218
+msgid "Post Count"
+msgstr ""
+
+#: assets/shortcodes/media_center.php:165
+msgid "Set post numbers"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:77
+msgid "Modal Box"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:148
+msgid "Add button text"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:155
+msgid "Button Text #2"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:158
+msgid "Add button #2 text"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:164
+msgid "Button Link #2"
+msgstr ""
+
+#: assets/shortcodes/modalbox.php:167
+msgid "Add button #2 Link"
+msgstr ""
+
+#: assets/shortcodes/our_team.php:160
+msgid "Teammember"
+msgstr ""
+
+#: assets/shortcodes/our_team.php:186 assets/shortcodes/partners_logo.php:118
+#: assets/shortcodes/portfolio.php:190 assets/shortcodes/testimonials.php:221
+msgid "Set post counts"
+msgstr ""
+
+#: assets/shortcodes/partners_logo.php:88
+msgid "Partners Logo"
+msgstr ""
+
+#: assets/shortcodes/portfolio.php:38
+msgid "All"
+msgstr ""
+
+#: assets/shortcodes/portfolio.php:150
+msgid "Portfolio"
+msgstr ""
+
+#: assets/shortcodes/portfolio.php:196
+msgid "Post Columns"
+msgstr ""
+
+#: assets/shortcodes/portfolio.php:199
+msgid "Set number of columns"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:254
+msgid "Need help?"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:255
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+msgstr ""
+
+#: assets/shortcodes/price_table.php:260
+msgid "Account Info"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:263 assets/shortcodes/subscribe.php:44
+msgid "Name"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:268 assets/shortcodes/subscribe.php:47
+msgid "Email"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:273
+msgid "Password"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:278
+msgid "Repeat Password"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:284
+msgid "Payment Method"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:290
+msgid "Paypal"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:295
+msgid "Card"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:303
+msgid "Card Number"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:308
+msgid "Expiration date"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:341
+msgid "Card CVC"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:350
+msgid "Get started"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:377
+msgid "Price Table Single"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:399
+msgid "Currency Type"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:402
+msgid "Type Currency Type"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:408
+msgid "Price"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:411
+msgid "Add Your Price"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:416
+msgid "After Dot Price"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:419
+msgid "Add After Dot Price"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:426
+msgid "Text A"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:429 assets/shortcodes/price_table.php:438
+#: assets/shortcodes/price_table.php:448 assets/shortcodes/price_table.php:457
+#: assets/shortcodes/price_table.php:466 assets/shortcodes/price_table.php:474
+#: assets/shortcodes/price_table.php:482 assets/shortcodes/price_table.php:490
+msgid "Add Text Here"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:435
+msgid "Sub Text A"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:445
+msgid "Text B"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:454
+msgid "Sub Text B"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:463
+msgid "Text C"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:471
+msgid "Sub Text C"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:479
+msgid "Text D"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:487
+msgid "Sub Text D"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:497
+msgid "Price Button"
+msgstr ""
+
+#: assets/shortcodes/price_table.php:500
+msgid "Add Button Text Here"
+msgstr ""
+
+#: assets/shortcodes/progress_bar.php:157
+msgid "Padding"
+msgstr ""
+
+#: assets/shortcodes/progress_bar.php:160
+msgid "Type padding value"
+msgstr ""
+
+#: assets/shortcodes/progress_bar.php:188
+msgid "Percent Number"
+msgstr ""
+
+#: assets/shortcodes/progress_bar.php:191
+msgid "Type percent number"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:50
+#: assets/shortcodes/project_progress.php:118
+msgid "Completed"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:74
+#: assets/shortcodes/project_progress.php:135
+msgid "Contractor"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:75
+#: assets/shortcodes/project_progress.php:136
+msgid "Area"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:76
+msgid "Location"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:77
+msgid "Completaion Exp"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:137
+msgid "Year Exp"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:173
+msgid "Project Progress"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:186
+msgid "Category"
+msgstr ""
+
+#: assets/shortcodes/project_progress.php:189
+msgid "Type category name"
+msgstr ""
+
+#: assets/shortcodes/projects.php:59
+msgid "Projects"
+msgstr ""
+
+#: assets/shortcodes/projects.php:83
+msgid "Set post count"
+msgstr ""
+
+#: assets/shortcodes/quote_box.php:49
+msgid "Quote Box"
+msgstr ""
+
+#: assets/shortcodes/quote_box.php:76 assets/shortcodes/tag_box.php:184
+#: assets/shortcodes/tag_box.php:202 assets/shortcodes/v-timeline.php:70
+msgid "Add Your Title Here"
+msgstr ""
+
+#: assets/shortcodes/section_title.php:126
+msgid "Section Title"
+msgstr ""
+
+#: assets/shortcodes/section_title.php:175 assets/shortcodes/tag_box.php:190
+msgid "Sub Title"
+msgstr ""
+
+#: assets/shortcodes/section_title.php:178
+msgid "Type subtitle here"
+msgstr ""
+
+#: assets/shortcodes/service_box.php:460
+msgid "Service Box"
+msgstr ""
+
+#: assets/shortcodes/service_box.php:548
+msgid "Add image"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:51
+msgid "GO"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:70
+msgid "Subscribe"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:82
+msgid "Call Title"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:85
+msgid "Add contact title here"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:91
+msgid "Subscribe Title"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:94
+msgid "Add subscribe title here"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:99
+msgid "Number"
+msgstr ""
+
+#: assets/shortcodes/subscribe.php:102
+msgid "Type contact number"
+msgstr ""
+
+#: assets/shortcodes/tag_box.php:121
+msgid "Tag Box"
+msgstr ""
+
+#: assets/shortcodes/tag_box.php:193 assets/shortcodes/tag_box.php:211
+msgid "Add Your Sub Title Here"
+msgstr ""
+
+#: assets/shortcodes/tag_box.php:208
+msgid "Button link"
+msgstr ""
+
+#: assets/shortcodes/testimonials.php:168
+msgid "Testimonials"
+msgstr ""
+
+#: assets/shortcodes/v-timeline.php:46
+msgid "V Timeline"
+msgstr ""
+
+#: assets/shortcodes/v-timeline.php:59
+msgid "Date"
+msgstr ""
+
+#: assets/shortcodes/v-timeline.php:62
+msgid "Add Your Date Here"
+msgstr ""
