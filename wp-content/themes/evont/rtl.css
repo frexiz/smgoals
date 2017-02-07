@@ -1,0 +1,1372 @@
+/*
+Theme Name: evont
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+/* Header ================================================== */	
+.jx-evont-left-topbar {
+    text-align: right !important;
+}
+.jx-evont-topbar .jx-evont-right-topbar {
+    float: left !important;
+}
+.jx-evont-right-topbar .email {
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+.header-search-right {
+    float: left !important;
+}
+.header-menu-left {
+    float: right !important;
+}
+.nav_container div {
+    float: right !important;
+    direction: rtl !important;
+}
+/* MAIN MENU ================================================== */
+
+.jx-evont-mainmenu > li.no-mega > .submenu {
+    right: 0px !important;
+	left:auto;
+}
+.jx-evont-mainmenu li .submenu li.col ul li {
+	text-align:right;
+}
+
+
+/* #Left - Right ================================================== */
+#left, .left {
+    float: right !important;
+}
+#right, .right {
+    float: left !important;
+}
+/* Service Box ================================================== */	
+.jx-evont-servicebox-2 {
+	direction:rtl !important;
+}
+.jx-evont-servicebox-2 .jx-evont-servicebox-item .jx-evont-image-wrapper .jx-evont-image-title-over span i {
+    margin-left: 0px !important;
+	margin-right:10px !important;
+}
+/* Protfolio ================================================== */	
+.jx-evont-protfolio {
+	direction:rtl !important;
+}
+.jx-evont-protfolio .jx-evont-portfolio-filter ul li::after {
+    right: 25px !important;
+}
+/* counter-up ================================================== */	
+.jx-evont-counter-up-2 .title {
+	direction:rtl !important;
+}
+.jx-evont-counter-up-2 {
+    direction: rtl !important;
+}
+.jx-evont-counter-up-2 .jx-evont-title i {
+    margin-left: 15px !important;
+	margin-right: 0px !important;
+}
+/* Project Progress ================================================== */	
+.jx-evont-project-progress {
+    direction: rtl !important;
+}
+.jx-evont-project-progress .jx-evont-bg-alternate li strong {
+	float:right !important;
+}
+.jx-evont-project-progress .jx-evont-project-contents li strong {
+	float:right !important;
+}
+.jx-evont-project-progress .jx-evont-project-image .jx-evont-percentage {
+    padding-right: 10px !important;
+	padding-left:0px !important;
+}
+.jx-evont-project-progress .jx-evont-project-image .image-hover {
+    right: -51px !important;
+    left: auto !important;
+	transform: skew(-32deg) !important;
+}
+.jx-evont-project-progress .jx-evont-project-image .count-number {
+    padding-left: 10px !important;
+}
+.jx-evont-project-progress .skillbar .percent-bg {
+	float:left !important;
+}
+/* Title Section ================================================== */	
+.jx-evont-section-title-2 {
+	direction:rtl !important;
+}
+/* Contact Us ================================================== */	
+.jx-evont-contact-form {
+	direction:rtl !important;
+}
+.contact-submit button i {
+    right: 0px !important;
+	left:auto !important;
+	border-right: 1px solid #FFF !important;
+	border-left: none !important;
+}
+.jx-evont-contact-info .icon {
+	float: right !important;
+	margin-left: 10px !important;
+	margin-right:0px !important;
+}
+.jx-evont-contact-info {
+	direction:rtl !important;
+}
+.jx-evont-contact-form .contact-full-name {
+    margin-right: 0px !important;
+}
+
+
+/* Blog ================================================== */	
+.jx-evont-blog-2 .date-position {
+	text-align:right;
+}
+.jx-evont-blog-2 .content-box {
+	text-align:right;
+}
+.jx-evont-blog-2 .hr-line {
+    border-left: 235px solid #000000 !important;
+	border-right: none !important;
+}
+/* Comment Form ================================================== */	
+#commentform {
+	direction:rtl;
+}
+.jx-evont-section-title-3 .jx-evont-title.small-text {
+    direction: rtl;
+}
+
+/* Tagline Section ================================================== */	
+.jx-evont-tagline-section .jx-evont-heading .number {
+    float: right !important;
+    margin-left: 5px !important;
+	margin-right:0px !important;
+}
+
+/* COLS ================================================== */	
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right !important;
+}
+
+
+
+/* CONTACTMAP ================================================== */	
+
+.jx-evont-contactmap-section .col-md-4 {
+	float:right;
+}
+
+
+/* SCROLLUP ================================================== */	
+
+#scrollUp {
+	left: 25px !important;
+	right:auto !important;
+}
+
+#scrollUp .scroll-icon {
+	margin-right: 22px !important;
+	margin-left:0px !important;
+}
+
+
+
+/* BLOG ================================================== */
+.jx-evont-blog-section .jx-evont-blog-date {
+	right: 36px !important;
+	left:auto;
+}
+
+.jx-evont-blog-section.small .readmore {
+    float: right;
+}
+
+.jx-evont-blog-section .readmore a::after {
+    content: "\f053";
+    margin-right: 10px;
+	margin-left: 0px;
+    float: left;
+}
+
+
+.jx-evont-blog-section .readmore a {
+    float: right;
+}
+
+
+.jx-evont-blog-section .entry-meta ul li {
+    margin-left: 15px;
+	margin-right:0px;
+    border-left: 1px solid;
+	border-right:0px;
+    padding-left: 15px;
+	padding-right:0px;
+}
+
+.jx-evont-blog-section .entry-meta i {
+    margin-left: 8px;
+	margin-right: 0px;
+}
+
+.jx-evont-blog-section .entry-meta ul li:last-child {
+    margin-left: 0px;
+    border-left: none;
+}
+
+/* PROGRAMS ================================================== */
+
+.programs_item .left-side {
+    float: right;
+    width: 415px;
+}
+
+.programs_item .right-side {
+    float: left;
+	text-align:right;
+}
+
+.programs_item.style-2 .time {
+    float: right;
+}
+
+.programs_item.style-2 .image {
+    float: right;
+    padding-right: 19px;
+}
+.programs_item.style-2 .time {
+    float: right;
+	}
+
+.programs_item.style-2 .time-minutes {
+    float: right;
+	direction: ltr;
+}
+	
+.programs_item.style-2 .time-hrs {
+    float: left;
+}
+
+
+/* HEADER ================================================== */
+
+.header .shopping-cart {
+    left: 15px;
+	right:auto;
+}
+
+.navbar-header {
+    float: right;
+}
+
+
+.jx-evont-header.jx-header-2 .jx-evont-right-topbar {
+    text-align: left;
+	}
+	
+.jx_evont_countdown.sc.jx-light ul li {
+     border-left: solid 1px #ffffff;
+	 border-right:none;
+}
+
+.jx_evont_countdown.sc ul li {
+    margin-right: 0px;
+	margin-left:30px;
+	}
+	
+	.jx_evont_countdown.sc ul li {
+	padding-left: 30px;
+	padding-right:0px;
+	}
+
+.jx_evont_countdown.sc ul li:last-child {
+    border-left: none !important;
+}
+
+/* WEDGET ================================================== */
+.widget .widget-title::after {
+    right: 25px;
+	left:auto;
+}
+
+.widget .widget-title::before {
+    right: 0px;
+	left:auto;
+}
+
+
+/* COUNTDOWN ================================================== */
+
+.jx_evont_countdown {
+	text-align: left;
+}
+.jx_evont_countdown ul li {
+    margin-right: 40px;
+	margin-left:0px;
+    text-align: right;
+}
+
+
+/* VENUE ================================================== */
+
+.jx-venue-2 .jx-venue-item .icon {
+	float: right;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+
+.jx-venue-2 .jx-venue-item .area {
+    padding-right: 25px;
+	padding-left:0px;
+}
+
+.jx-venue-1 .detail-list ul li {
+    padding: 0px 0px 5px 10px;
+}
+
+.jx-venue-1 .average .price {
+    float: left;
+}
+
+.jx-evont-contact-address .icon {
+    padding-left: 10px;
+	padding-right:0px;
+}
+
+/* SHARE BOX ================================================== */
+
+.jx-evont-share-box-icon .share-title {
+    float: right;
+}
+
+
+/* BLOG TAG ================================================== */
+
+.jx-evont-blog-tag span {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+.jx-evont-blog-title-4 .jx-evont-title::before {
+     margin-left: 10px;
+	 margin-right:0px;
+    float: right;
+}
+
+
+/* TICKET FORM ================================================== */
+
+.jx-evont-ticket-from form input {
+    text-align: right;
+}
+
+.jx-evont-ticket-from form select {
+    text-align: right;
+}
+
+.jx-evont-ticket-from form p {
+    text-align: right;
+}
+
+
+.jx-evont-ticket-from {
+    padding-right: 120px !important;
+    padding-left: 39px !important;
+}
+
+/* COUNTER ================================================== */
+
+.jx-evont-counter-info {
+    text-align: right;
+}
+.jx-evont-counter-icon {
+    float: right;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.jx-evont-counter-up {
+    padding-right: 30px;
+	padding-left:0px;
+}
+
+
+
+
+/* PROGRESS ================================================== */
+
+.programs_item.style-1 .speaker-image {
+    float: right;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+
+.programs_item.style-1 .speaker-name {
+    z-index: 9999;
+    position: relative;
+	text-align: right;
+}
+
+.programs_item.style-1 .speaker-image {
+    position: relative;
+    z-index: 9999;
+}
+
+.programs_item h3 {
+text-align:right;
+}
+
+.programs_item p {
+text-align:right;
+}
+
+.programs_item.style-1 .time::after {
+    transform: rotate(-45deg);
+    top: -60px;
+    left: -20px;
+}
+
+.programs_item.style-1 .time {
+    text-align: right;
+    direction: ltr;
+}
+
+
+/* Gird Item ================================================== */
+
+.grid-item:nth-child(1) ul.socail, .grid-item:nth-child(2) ul.socail, .grid-item:nth-child(3) ul.socail {
+     text-align: left;
+}
+
+.grid-item:nth-child(1) h3, .grid-item:nth-child(2) h3, .grid-item:nth-child(3) h3 {
+    text-align: right;
+	}
+
+
+.jx-evont-teammember ul.socail {
+     text-align: left;
+}
+.jx-evont-teammember h3 {
+    text-align: right;
+	}
+
+
+/* Woocommerce Page ================================================== */
+
+.woocommerce-page.woocommerce ul.cart_list li img, .woocommerce-page.woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 16px;
+	margin-right:0px;
+}
+	
+	
+.woocommerce .woocommerce-product-rating .star-rating {
+    margin: .5em 0px 0px 10px;
+    float: right;
+}
+
+.woocommerce div.product form.cart, .woocommerce div.product p.cart {
+    margin-bottom: 2em;
+    text-align: right;
+    float: right;
+}
+
+.product_meta {
+	float: right;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+float:right;
+}
+
+
+
+
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+float:left;
+}
+
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a {
+    float: right;
+    width: 30.75%;
+    margin-left: 3.8%;
+	margin-right:0px;
+    margin-bottom: 1em;
+}
+
+
+
+
+/* HOME SLIDER --------------------------------*/
+
+.jx-big-date {
+	float: right !important;
+}
+.jx-month-small .event-title {
+    padding: 15px 40px 15px 30px !important;
+    right: 50% !important;
+    margin-right: -45px !important;
+    left: 0px !important;
+    margin-left: 0px !important;
+}
+.jx-month-small .event-ticket-btn {
+    padding: 15px 20px 15px 30px !important;
+    right: 82% !important;
+    margin-right: -45px !important;
+    left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.jx-evont-shadow {
+    right: 20px !important;
+    left: 0px !important;
+}
+
+
+.jx-evont-breadcrumb a {
+    text-align: right !important;
+    display: inline-block !important;
+}
+
+.jx_evont_countdown ul li:last-child {
+    margin-right: 40px !important;
+}
+
+
+
+
+
+/*---------------- Woocomerce----------------------*/
+
+.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9 {
+    float: right !important;
+}
+
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right !important;
+}
+
+.col-sm-4.sidebar-right {
+    padding-right: 15px !important;
+    padding-left: 0px !important;
+}
+
+
+
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: left !important;
+}
+
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+    float: right !important;
+}
+
+.woocommerce .woocommerce-ordering select {
+    vertical-align: top !important;
+    direction: ltr !important;
+    text-align: right !important;
+    padding-right: 20px !important;
+}
+
+#sidebar .widget_product_search input.search-field {
+    margin-left: 7px !important;
+    float: right !important;
+    margin-right: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- MAIN STARIC FONT---------*/
+
+* {
+  font-family: 'Cairo';
+}
+
+body {
+  font: 14px/20px 'Cairo' !important;
+  color: #333;
+  font-weight: 400;
+}
+
+
+
+/*---------- TYPOGRAPY FONT---------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Cairo' !important;
+  font-weight: 500 !important;
+}
+
+code,kbd,pre,samp {
+  font-family: Cairo !important;
+  font-size: 13px;
+}
+
+pre {
+  background-color: rgba(0,0,0,0.04);
+  color: #333;
+  font-family: Cairo !important;
+  font-size: 13px;
+  margin: 23px 0;
+  margin: 2.3rem 0;
+  overflow: auto;
+  padding: 20px;
+  padding: 2rem;
+
+}
+
+.help-block.form-error {
+	position:absolute;
+	bottom:25px;
+	left:220px;
+	font-size:15px;
+	font-weight:400;
+	font-family:Cairo;
+}
+
+/*---------- BUTTON---------*/
+
+.button,button,input[type="submit"],input[type="reset"],input[type="button"] {
+  background: #eee;
+		/* Old browsers */
+  border: 1px solid #aaa;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #333;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  line-height: normal;
+  padding: 8px 10px;
+  font-family: Cairo !important;
+}
+
+.mainBtn {
+	height:44px;
+	background:#2e2841;
+	border:0;
+	font-size:17px;
+	line-height:30px;
+	letter-spacing:0.5px;
+ transition: .4s;
+	color:#fff;
+	padding-left:25px !important;
+	padding-right:25px !important;
+	border: solid 0 #fff;
+	border-radius:5px;
+ transition: .4s;
+	font-family: 'Cairo' !important;
+	font-weight:700;
+}
+
+
+
+/*---------- TOP BAR ---------*/
+
+.jx-evont-top-bar .jx-evont-contact_details {
+	padding:11px 0;
+	font-family: Cairo !important;
+	font-weight:500;
+	font-size:12px;
+}
+
+
+/*---------- MAINMENU ---------*/
+.jx-evont-mainmenu  li  a {
+ 	font-family: Cairo !important;
+}
+
+.nav {
+	padding-left:0;
+	margin-bottom:0;
+	list-style:none;
+	margin-top:15px;
+	font-family: 'Cairo' !important;
+	font-weight:700;
+	margin-right:30px;
+}
+
+.hero h2 {
+	line-height:2rem;
+	margin-bottom:45px;
+	font-family: Cairo !important;
+	font-size:87px;
+	color:#fff
+}
+
+.hero h3 {
+	line-height:0.8em;
+	margin-bottom:20px;
+	font-size:130px;
+	color:#fff;
+	font-family: 'Cairo' !important;
+	font-weight:700;
+}
+
+
+/*---------- BLOG ---------*/
+
+.jx-evont-blog-section .date_tag span {
+	font-family: 'Cairo' !important;
+	font-weight: 700;
+	font-size: 22px;;
+}
+
+.jx-evont-blog-section h3 {
+ 	margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: 'Cairo' !important;
+    font-weight: 700 !important;
+    color: #2e2841;
+    padding-bottom: 10px;
+    padding-top: 22px;
+    line-height: 1.2 !important;
+    text-transform: uppercase;
+}
+
+.jx-evont-blog-section .entry-meta ul li {
+	display: inline-block;
+	Font-size: 14px;
+	font-family: Cairo !important;
+	font-weight: 400;
+	line-height: 1;
+	margin-right: 15px;
+	border-right: 1px solid;
+	padding-right: 15px;
+	margin-bottom: 0;
+}
+
+
+.jx-evont-blog-title-metabox .jx-evont-date .day{
+  font-size:40px;
+  font-family:'Cairo';
+  
+}
+
+.jx-evont-blog-title-metabox .jx-evont-date .month{
+  font-size:25px;
+  font-family:'Cairo';
+  text-transform: uppercase;
+  font-weight:700;
+  
+}
+
+.jx-evont-blog-title-metabox .jx-evont-title{
+  font-size:35px;
+  font-weight:500;
+  margin-bottom:15px;
+  line-height: 1;
+  font-family:'Cairo';
+  height: 38px;
+overflow: hidden;
+}
+
+
+
+
+/*---------- HERO SLIDER ---------*/
+
+.main-titlebar .jx-home-slider h2 {
+    color: #fff;
+	font-family: 'Cairo' !important;
+	font-size: 90px !important;
+	line-height: 1 !important;
+	margin-bottom: 0 !important;
+	margin-top: 45px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+}
+.main-titlebar .jx-home-slider  h3 {
+   	color: #fff;
+	font-family: 'Cairo' !important;
+	font-size: 130px  !important;
+	font-weight: 800 !important;
+	line-height: 0.8 !important;
+	margin-top: 0 !important;
+	margin-bottom: 50px !important;
+	text-transform: uppercase;
+}
+
+
+.jx-evont-hero-title h2{
+  color:#fff300;
+  font-family: 'Cairo' !important;
+  font-size:50px;
+  line-height: 1 !important;
+  margin-bottom:0 !important;
+  margin-top:45px !important;
+  text-transform:uppercase;
+  font-weight:bold !important;
+    
+}
+
+.jx-evont-hero-title h3{
+  color:#fff;
+  font-family: 'Cairo' !important;
+  font-size:70px;
+  font-weight:800 !important;
+  line-height: 0.8 !important;
+  margin-top:0 !important;
+  margin-bottom:50px !important;
+  text-transform:uppercase;
+}
+
+
+
+
+/*---------- PAGE TITLE ---------*/
+
+.jx-evont-pagetitle h1{
+	text-align: center;
+	font-size: 35px;
+	font-family: 'Cairo' !important;
+	font-weight: 700 !important;
+	color: #000;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background: #fff300;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 3px 23px;
+}
+
+
+/*---------- STOCKY ---------*/
+
+.sticky::after {
+    content: "FEATURED";
+    background-color: #fff220;
+    font-family:'Cairo';
+    position: absolute;
+    top: 20px;
+    font-weight:500;
+    right: 0px;
+    height:38px;
+    margin-bottom:60px;
+    font-size:18px;
+    padding: 10px;
+    color: #000;
+	line-height:1;
+}
+
+/*---------- PAGINATION ---------*/
+
+.jx-evont-pagination .page-numbers{
+  background:#2E2841;
+  width:40px;
+  height: 40px;
+  display:inline-block;
+  text-align: center;
+  line-height: 35px;
+  font-size:15px;
+  margin-right:10px;
+  color:#ffffff;
+  font-family: 'Cairo' !important;
+  line-height: 40px;
+}
+
+
+/*---------- HEADINGS ---------*/
+
+.block-heading{
+	overflow: hidden;
+	font-family: 'Cairo' !important;
+	margin-bottom: 20px;
+	margin-top: 16px;
+}
+
+/*---------- RELATED BLOG ---------*/
+
+.jx-evont-related-blog-item .jx-evont-related-date{
+  font-family:'Cairo';
+  
+}
+
+
+/*---------- PAGE ---------*/
+
+.jx-evont-error-page h1{
+  text-align: center;
+  font-family:'Cairo';
+  padding:10px;
+  text-transform: uppercase
+  
+}
+.jx-evont-error-page .jx-evont-error-code {
+    font-size: 320px;
+    font-family: 'Cairo' !important;
+    margin-top: 60px;
+    color: #000;
+    line-height:1;
+    text-align:center
+}
+
+
+
+/*---------- LOGIN / REGISTRATION ---------*/
+
+
+a.login_button{
+  padding:4px 8px;
+  border-radius:5px;
+  display:block;
+  margin-top:8px;
+  font-family:'Cairo';
+  border:1px solid transparent;
+}
+
+
+a.sign_out span{
+  display:inline-block; 
+  font-family:'Cairo'; 
+  top: -3px;
+	position: relative;
+}
+
+
+.jx-evont-auth h1, .jx-evont-auth h3{
+    font-family: 'Cairo' !important;
+    font-weight: 100;
+    color: #333333;    
+	line-height: 1;    
+}
+
+
+
+
+
+
+
+/* SECTION TITLE STYLE A ----------------------*/
+
+.jx-evont-title-1 h1 {
+	text-align:center;
+	font-size:35px;
+	font-family: 'Cairo' !important;
+	font-weight:700 !important;
+	color:#000;
+	margin:0;
+	text-transform: uppercase;
+	background: #fff300;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 3px 23px;
+}
+
+
+.jx-evont-title-1 h2 {
+  font-family: 'Cairo' !important;
+  font-weight:800 !important;;
+  font-size:23px !important;;
+  text-transform:uppercase;
+  padding-left:45px;
+  position:relative;
+  padding-top:5px;
+  margin-bottom:6px;
+  margin-top:0;
+  color: #082d72;
+}
+
+/* Style B-----------------------*/
+.jx-evont-section-title-3 h1 {
+  position: relative;  
+  text-transform: uppercase;
+    font-family: 'Cairo' !important;
+    font-weight: 800 !important;
+    font-size: 24px !important;
+    color: #333333;
+    padding-left: 50px;
+    position: relative;
+    margin: 0px 0 10px 0;
+   line-height: 1 !important;
+  
+}
+
+
+/* -------- BLOG---------------*/
+
+.jx-evont-blog-2 .overlay2 span{
+ 	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #ffe102;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 53px;
+	font-size: 44px;
+	font-weight: 300;
+	opacity: 1;
+	margin-left: -25px;
+	margin-top: -25px;
+	transition: 0.4s;
+	font-family: 'Cairo' !important;
+}
+
+.jx-evont-blog-2 .date{
+  color:#ffe102;
+  font-family:'Cairo';
+  font-size:14px;
+  margin-right:5px;
+  margin-top:-2px;
+  
+}
+
+
+/* -------- CONTACT MAP ---------------*/
+
+.jx-evont-contactmap-section h2 {
+	font-size:32px;
+	font-family: 'Cairo' !important;
+	font-weight:700;
+	color:#000;
+	line-height:normal;
+	margin:0
+}
+
+.jx-evont-contactmap-section h3 {
+font-size: 26px;
+font-family: 'Cairo' !important;
+font-weight: 700 !important;
+color: #000;
+line-height: normal;
+margin: 0;
+padding-top: 10px;
+}
+
+
+
+/* -------- TEAM MEMBER ---------------*/
+
+.jx-evont-team-member-2 .office{ padding:0; margin:0}
+.jx-evont-team-member-2 .office img{ margin-bottom:25px; width:100%}
+.jx-evont-team-member-2 .office h3 {
+  font-family: 'Cairo' !important;
+  font-weight:700;
+  font-size:22px;
+  text-transform:uppercase;
+  padding-left:50px;
+  position:relative;
+  padding-top:12px;
+  margin-bottom:25px;
+  margin-top:0
+}
+
+
+.jx-evont-teammember .jx-evont-teammember-item span {
+	text-align:left !important;
+	font-size:15px;
+	font-family: 'Cairo' !important;
+}
+
+/* -------- COUNTDOWN ---------------*/
+
+
+.jx_evont_countdown .jx-evont-countdown-title {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #dc284f;
+	font-weight: 600;
+	line-height: 42px;
+    font-family: 'Cairo' !important;
+}
+
+.jx_evont_countdown .jx-evont-countdown-subtitle {
+	font-size: 65px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000000;
+	line-height: 65px;
+	padding-bottom: 60px;
+    font-family: 'Cairo' !important;
+}
+
+
+/* -------- TAGLINE ---------------*/
+
+.jx-evont-tagline-section .jx-evont-heading .txt-1 {
+	font-size:41px;
+	font-family: 'Cairo' !important;
+	font-weight:700;
+	color:#32ac49;
+	line-height:normal
+}
+.jx-evont-tagline-section .jx-evont-heading .txt-2 {
+	font-size:41px;
+	font-family: 'Cairo' !important;
+	font-weight:800;
+	color:#1b96b4;
+	line-height:normal;
+	line-height:40px
+}
+
+.jx-evont-tagline-section p {
+	font-size:16px;
+	color:#333333;
+	font-family: 'Cairo' !important;
+}
+
+.jx-evont-tagline-2 .jx-evont-tagline-title {
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #fff220;
+	font-weight: 700;
+	line-height: 39px;
+	font-family: "Cairo";
+}
+
+.jx-evont-tagline-2 .jx-evont-tagline-subtitle {
+	font-size: 60px;
+	color: #000000;
+	font-weight: 700;
+	line-height: 55px;
+	font-family: "Cairo";
+}
+
+.jx-evont-tagline-2 .jx-event-tagline-button {
+font-size: 20px;
+line-height: 32px;
+transition: .4s;
+color: #333;
+transition: .4s;
+font-family: 'Cairo' !important;
+font-weight: 700;
+padding: 15px 27px;
+text-transform: uppercase;
+background: #fff220;
+border-radius: 6px;
+}
+
+
+.jx-evont-tagline-3 .jx-evont-tagline-title {
+    font-size: 22px;
+    color: #333;
+    font-weight: 700;
+    line-height: 39px;
+    font-family: "Cairo";
+    float: left;
+    padding-top: 8px;
+}
+
+.jx-evont-tagline-3 .jx-event-tagline-button {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    transition: .4s;
+    color: #fff220;
+    transition: .4s;
+    font-family: 'Cairo' !important;
+    font-weight: 500;
+    padding: 10px 25px;
+    background: #2d283f;
+    float: right;
+    border-radius: 5px;
+}
+
+
+/* -------- SUBSCRIBE ---------------*/
+
+.jx-evont-get-updates-2 .title {
+	text-align: center;
+	font-size: 32px;
+	font-family: "Cairo";
+	font-weight: 500;
+	color: #ffffff;
+	padding-bottom: 25px;
+	margin: 0px;
+    line-height: 32px;
+}
+
+.jx-evont-contact-address .mainBtn{
+  height: 35px;
+  background: #dc284f;
+  border: 0;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0;
+  transition: .4s;
+  color: #fff;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border: solid 0 #fff;
+  border-radius: 5px;
+  transition: .4s;
+  font-family: 'Cairo' !important;
+  font-weight: 700;
+}
+
+
+
+/* -------- SPONCER ---------------*/
+
+.supportus_area h3 {
+	font-size:22px;
+	font-family: 'Cairo' !important;
+	padding-bottom:10px;
+	color:#fff
+}
+
+
+/* -------- SPEAKER ---------------*/
+
+.jx-evont-speakers-area .jx-evont-speaker-item span {
+	text-align:left !important;
+	font-size:15px;
+	font-family: 'Cairo' !important;
+}
+
+
+/* -------- PLAN COLUMN ---------------*/
+
+.plan-column h3 {
+	color:#fff;
+	font-family: 'Cairo' !important;
+	font-weight:500;
+	font-size:35px !important;
+	margin:0;
+	padding:0 0 10px 0;
+	line-height:normal
+}
+
+.plan-column .jx-evont-plan-price span {
+	font-family: 'Cairo' !important;
+	font-weight:500;
+	font-size:24px;
+}
+.plan-column ul {
+	font-size:16px;
+	font-family: 'Cairo' !important;
+	margin-bottom: 30px;
+}
+
+.standard-column h3 {
+	color:#fff;
+	font-family: 'Cairo' !important;
+	font-weight:500;
+	font-size:35px !important;
+	margin:0;
+	padding:0 0 10px 0;
+	line-height:normal
+}
+
+
+.standard-column .jx-evont-plan-price span {
+	font-family: 'Cairo' !important;
+	font-weight:500;
+	font-size:24px;
+}
+.standard-column ul {
+	font-size:16px;
+	font-family: 'Cairo' !important;
+	padding:0;
+	margin-bottom: 30px;
+}
+
+
+
+/* -------- TABS ---------------*/
+
+.nav-tabs > li > a {
+	margin-right: 0;
+	color: #dc284f;
+	border-radius:4px !important;
+	border: solid 2px #dc284f !important;
+	font-size:16px;
+	padding:5px 15px;
+	font-family: 'Cairo' !important;
+}
+
+
+/* -------- PROGRAM ---------------*/
+
+.programs_item.style-2 .time {
+    font-family: 'Cairo' !important;
+    color: #2d283f;
+	padding: 25px 14px 0px 0px;
+    float: left;
+    height: 79px;
+	min-width: 169px;
+}
+
+.programs_item.style-2 .name {
+    font-family: 'Cairo' !important;
+    font-size: 17px;
+    color: #2d283f;
+    padding-top: 16px;
+}
+
+.programs_item.style-2 .des {
+    font-family: 'Cairo' !important;
+    font-size: 15px;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+
+.programs_item.style-2 h3 {
+    font-size: 19px !important;
+    font-family: 'Cairo' !important;
+    font-weight: 600 !important;
+    padding-bottom: 3px;
+    line-height: 1 !important;
+}
+
+.programs_item .time {
+	font-family: 'Cairo' !important;
+	font-size:17px;
+	color:#32ac49;
+	padding:20px 0
+}
+.programs_item .name {
+	font-family: 'Cairo' !important;
+	font-size:17px;
+	color:#32ac49;
+	padding-bottom:0;
+}
+.programs_item .des {
+	font-family: 'Cairo' !important;
+	font-size:15px;
+	color:#666666;
+	padding-bottom:5px;
+}
+.programs_item h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 19px !important;
+	font-family: 'Cairo' !important;
+	font-weight: 600 !important;
+	padding-bottom: 5px;
+	line-height:1 !important
+}

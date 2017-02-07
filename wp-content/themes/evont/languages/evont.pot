@@ -1,0 +1,940 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Evont\n"
+"POT-Creation-Date: 2016-08-14 15:38+0300\n"
+"PO-Revision-Date: 2016-08-14 15:38+0300\n"
+"Last-Translator: \n"
+"Language-Team: Janxcode <support@janxcode.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: admin/classes/class.options_machine.php:532
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/front-end/options.php:26
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/front-end/options.php:38 admin/front-end/options.php:62
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/front-end/options.php:39 admin/front-end/options.php:63
+msgid "Options Reset"
+msgstr ""
+
+#: comments.php:4 comments.php:52 comments.php:53
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:22
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:22
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:22 template-parts/content-search.php:147
+#: template-parts/content-search.php:148 template-parts/content-single.php:144
+#: template-parts/content.php:88
+msgid "Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:45
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:46
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:47
+msgid "Website"
+msgstr ""
+
+#: comments.php:54
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+#: comments.php:55
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:55
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:55
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:58
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:60
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:106
+msgid "evont Framework"
+msgstr ""
+
+#: functions.php:116
+msgid "Revolution Slider"
+msgstr ""
+
+#: functions.php:126
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:138
+msgid "Visual Composer"
+msgstr ""
+
+#: functions.php:170 inc/class-tgm-plugin-activation.php:300
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:171 inc/class-tgm-plugin-activation.php:301
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:172 inc/class-tgm-plugin-activation.php:302
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:173 inc/class-tgm-plugin-activation.php:303
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:184 inc/class-tgm-plugin-activation.php:364
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:185 inc/class-tgm-plugin-activation.php:366
+#: inc/class-tgm-plugin-activation.php:2645
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:186
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:209 functions.php:220 functions.php:231
+msgid "Featured image "
+msgstr ""
+
+#: functions.php:335 inc/footer/footer-1.php:12
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:343
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:347
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:347
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:385 widgets/recent-posts-widget.php:129
+msgid "Read More"
+msgstr ""
+
+#: functions.php:400
+msgid "General Widget"
+msgstr ""
+
+#: functions.php:413
+msgid "Footer Widget 01"
+msgstr ""
+
+#: functions.php:423
+msgid "Footer Widget 02"
+msgstr ""
+
+#: functions.php:433
+msgid "Footer Widget 03"
+msgstr ""
+
+#: functions.php:471
+msgid "First"
+msgstr ""
+
+#: functions.php:472
+msgid "Previous"
+msgstr ""
+
+#: functions.php:581
+msgid "Section ID"
+msgstr ""
+
+#: functions.php:584
+msgid "Set ID section"
+msgstr ""
+
+#: functions.php:590
+msgid "Class"
+msgstr ""
+
+#: functions.php:593
+msgid "Set class name"
+msgstr ""
+
+#: functions.php:600
+msgid "Padding"
+msgstr ""
+
+#: functions.php:603 functions.php:620
+msgid "Select"
+msgstr ""
+
+#: functions.php:604
+msgid "Default Padding"
+msgstr ""
+
+#: functions.php:605
+msgid "Small Padding"
+msgstr ""
+
+#: functions.php:606
+msgid "No Padding"
+msgstr ""
+
+#: functions.php:607
+msgid "Top Padding Only"
+msgstr ""
+
+#: functions.php:608
+msgid "Bottom Padding Only"
+msgstr ""
+
+#: functions.php:610 functions.php:641 functions.php:658
+msgid "Select Padding"
+msgstr ""
+
+#: functions.php:617
+msgid "Fullwidth"
+msgstr ""
+
+#: functions.php:621
+msgid "Yes"
+msgstr ""
+
+#: functions.php:622 functions.php:635 functions.php:651
+msgid "No"
+msgstr ""
+
+#: functions.php:625
+msgid "Set container width"
+msgstr ""
+
+#: functions.php:632
+msgid "Overlayer"
+msgstr ""
+
+#: functions.php:636
+msgid "Default"
+msgstr ""
+
+#: functions.php:637
+msgid "Black"
+msgstr ""
+
+#: functions.php:638
+msgid "Black Light"
+msgstr ""
+
+#: functions.php:639
+msgid "Grey"
+msgstr ""
+
+#: functions.php:648
+msgid "Row Pattern"
+msgstr ""
+
+#: functions.php:652
+msgid "Left Big"
+msgstr ""
+
+#: functions.php:653
+msgid "Right Big"
+msgstr ""
+
+#: functions.php:654
+msgid "Left Small"
+msgstr ""
+
+#: functions.php:655
+msgid "Right Small"
+msgstr ""
+
+#: functions.php:656
+msgid "Full Pattern"
+msgstr ""
+
+#: functions.php:682
+msgid "Failed to create css file"
+msgstr ""
+
+#: inc/ajax-auth.php:3
+msgid "New to site?"
+msgstr ""
+
+#: inc/ajax-auth.php:3
+msgid "Create an Account"
+msgstr ""
+
+#: inc/ajax-auth.php:5 inc/ajax-auth.php:18
+msgid "Login"
+msgstr ""
+
+#: inc/ajax-auth.php:8 inc/ajax-auth.php:23
+msgid "Username"
+msgstr ""
+
+#: inc/ajax-auth.php:10 inc/ajax-auth.php:27
+msgid "Password"
+msgstr ""
+
+#: inc/ajax-auth.php:12
+msgid "Lost password?"
+msgstr ""
+
+#: inc/ajax-auth.php:13
+msgid "LOGIN"
+msgstr ""
+
+#: inc/ajax-auth.php:14 inc/ajax-auth.php:32
+msgid "X"
+msgstr ""
+
+#: inc/ajax-auth.php:18
+msgid "Already have an account?"
+msgstr ""
+
+#: inc/ajax-auth.php:20
+msgid "Signup"
+msgstr ""
+
+#: inc/ajax-auth.php:25 inc/sharebox.php:43 widgets/contact-widget.php:108
+msgid "Email"
+msgstr ""
+
+#: inc/ajax-auth.php:29
+msgid "Confirm Password"
+msgstr ""
+
+#: inc/ajax-auth.php:31
+msgid "SIGNUP"
+msgstr ""
+
+#: inc/ajax_auth_function.php:7
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: inc/ajax_auth_function.php:50
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: inc/ajax_auth_function.php:52
+msgid "This username is already registered."
+msgstr ""
+
+#: inc/ajax_auth_function.php:54
+msgid "This email address is already registered."
+msgstr ""
+
+#: inc/ajax_auth_function.php:71
+msgid "Wrong username or password."
+msgstr ""
+
+#: inc/ajax_auth_function.php:74
+msgid "$d successful, redirecting..."
+msgstr ""
+
+#: inc/breadcrumb.php:152 inc/breadcrumb.php:298
+msgid "Page"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:365
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:367
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:369
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:370
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:371
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:372
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:472
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:574
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:736
+#: inc/class-tgm-plugin-activation.php:2992
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:827
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:830
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:830
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1912
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1914
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1928
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1931
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1934
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1949
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1952
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1954
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1958
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1960
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1962
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2095
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2102
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2112
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2133
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2146
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2147
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2148
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2151
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2152
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2266
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2300
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2303
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2328
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2359
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2441
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2462
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2925
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2927
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2928
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2931
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2932
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2932
+#: inc/class-tgm-plugin-activation.php:2938
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2932
+#: inc/class-tgm-plugin-activation.php:2938
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2933
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2937
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2938
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2939
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2940
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/extras.php:45
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/menu-walker/walker_menu.php:152
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/menu-walker/walker_menu.php:156
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/menu-walker/walker_menu.php:306
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/meta-box/inc/fields/oembed.php:81
+msgid "Preview"
+msgstr ""
+
+#: inc/meta-boxes.php:60
+msgid "Post Options"
+msgstr ""
+
+#: inc/meta-boxes.php:89 inc/meta-boxes.php:133 inc/meta-boxes.php:401
+msgid "Title Bar Options"
+msgstr ""
+
+#: inc/meta-boxes.php:176
+msgid "Revolution Slider Title Bar"
+msgstr ""
+
+#: inc/meta-boxes.php:191
+msgid "Video"
+msgstr ""
+
+#: inc/meta-boxes.php:207
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/meta-boxes.php:229 inc/meta-boxes.php:447
+msgid "Background Image"
+msgstr ""
+
+#: inc/meta-boxes.php:281
+msgid "Testimonials Details"
+msgstr ""
+
+#: inc/meta-boxes.php:301
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/meta-boxes.php:477
+msgid "Form"
+msgstr ""
+
+#: inc/meta-boxes.php:493
+msgid "Custom Form"
+msgstr ""
+
+#: inc/related_posts.php:30
+msgid "Related Posts"
+msgstr ""
+
+#: inc/sharebox.php:4
+msgid "Share this Story"
+msgstr ""
+
+#: inc/sharebox.php:9
+msgid "Twitter"
+msgstr ""
+
+#: inc/sharebox.php:14
+msgid "Facebook"
+msgstr ""
+
+#: inc/sharebox.php:19
+msgid "Google+"
+msgstr ""
+
+#: inc/sharebox.php:24
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/sharebox.php:24
+msgid "Linkedin"
+msgstr ""
+
+#: inc/sharebox.php:29
+msgid "Delicious"
+msgstr ""
+
+#: inc/sharebox.php:33
+msgid "Digg"
+msgstr ""
+
+#: inc/sharebox.php:38
+msgid "Reddit"
+msgstr ""
+
+#: inc/sharebox.php:43
+msgid "E-Mail"
+msgstr ""
+
+#: inc/template-tags.php:43 inc/template-tags.php:48
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:45
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:50
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:55 template-parts/content-search.php:148
+#: template-parts/content-single.php:144 template-parts/content.php:88
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:58 template-parts/content-page.php:21
+msgid "Edit"
+msgstr ""
+
+#: inc/titlebar.php:65
+msgid "Home"
+msgstr ""
+
+#: inc/titlebar.php:93
+msgid "Buy Ticket"
+msgstr ""
+
+#: inc/titlebar.php:106 inc/titlebar.php:156 inc/titlebar.php:242
+#: inc/titlebar.php:311 inc/titlebar.php:391
+msgid "Days"
+msgstr ""
+
+#: inc/titlebar.php:110 inc/titlebar.php:160 inc/titlebar.php:246
+#: inc/titlebar.php:315 inc/titlebar.php:395
+msgid "Hours"
+msgstr ""
+
+#: inc/titlebar.php:114 inc/titlebar.php:164 inc/titlebar.php:250
+#: inc/titlebar.php:319 inc/titlebar.php:399
+msgid "Mins"
+msgstr ""
+
+#: inc/titlebar.php:118 inc/titlebar.php:168 inc/titlebar.php:254
+#: inc/titlebar.php:323 inc/titlebar.php:403
+msgid "Secs"
+msgstr ""
+
+#: inc/updates/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: inc/updates/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: inc/updates/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: inc/updates/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: search.php:32
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:15
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:143
+msgid "Author"
+msgstr ""
+
+#: template-parts/content-search.php:148 template-parts/content-single.php:144
+#: template-parts/content.php:88
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/content-search.php:151
+msgid "Category"
+msgstr ""
+
+#: template-parts/content-search.php:156
+msgid "Tag"
+msgstr ""
+
+#: template-parts/content-single.php:154
+msgid "Tags:"
+msgstr ""
+
+#: vc_templates/iconpicker.php:80
+#: vc_templates/include/params/iconpicker/iconpicker.php:80
+msgid "From all categories"
+msgstr ""
+
+#: vc_templates/iconpicker.php:84
+#: vc_templates/include/params/iconpicker/iconpicker.php:84
+msgid "Uncategorized"
+msgstr ""
+
+#: widgets/button-widget.php:15
+msgid "evont Buttons"
+msgstr ""
+
+#: widgets/contact-widget.php:15
+msgid "evont Contacts"
+msgstr ""
+
+#: widgets/contact-widget.php:103
+msgid "Tel"
+msgstr ""
+
+#: widgets/contact-widget.php:104
+msgid "Fax"
+msgstr ""
+
+#: widgets/download-widget.php:15
+msgid "evont Downloads"
+msgstr ""
+
+#: widgets/menu-widget.php:15
+msgid "evont menus"
+msgstr ""
+
+#: widgets/quote-request-widget.php:15
+msgid "evont Quote Request"
+msgstr ""
+
+#: widgets/recent-posts-widget.php:15
+msgid "evont Recent Posts"
+msgstr ""
+
+#: widgets/subscribe_widget.php:15
+msgid "evont subscribe"
+msgstr ""
+
+#: widgets/support-widget.php:15
+msgid "evont Support"
+msgstr ""
+
+#: widgets/video-widget.php:15
+msgid "evont Video"
+msgstr ""

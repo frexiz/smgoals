@@ -40,6 +40,12 @@ class Smgoals_Admin {
 	 */
 	private $version;
 
+    /**
+     * Define name for my options to prevent confilcts.
+     */
+
+    private $option_name = 'smgoals_option';
+
 	/**
 	 * Initialize the class and set its properties.
 	 *
@@ -119,4 +125,26 @@ class Smgoals_Admin {
         include_once 'partials/smgoals-admin-display.php';
     }
     // Load the view for the plugin admin side
+
+    // Register our settings
+
+    public function register_settings_goals(){
+//       add_settings_section(
+//           $this->option_name . '_general',
+//           __('General Options' , 'smgoals'),
+//           array($this,$this->option_name .'general_cb'),$this->plugin_name
+//       );
+//
+
+
+    }
+
+    // Register Settings
+    public function smgoals_general_cb() {
+        echo '<p>' . __( 'Моля въведете вашата цел.', 'smgoals' ) . '</p>';
+    }
+
+    public function add_settings_field(){
+
+    }
 }
